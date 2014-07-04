@@ -998,6 +998,13 @@ body,
   -moz-box-shadow: inset 0 5px 0 #333;
   box-shadow: inset 0 5px 0 #333;
 }
+#nav ul li a.current {
+  background-color: #333;
+  color: #fff;
+  -webkit-box-shadow: inset 0 5px 0 #dedede;
+  -moz-box-shadow: inset 0 5px 0 #dedede;
+  box-shadow: inset 0 5px 0 #dedede;
+}
 #nav ul li a>span {
   background: url(http://datos.ensambledev.com/new/wp-content/themes/datos/assets/frontend/img/icons-nav.png) no-repeat;
   width: 42px;
