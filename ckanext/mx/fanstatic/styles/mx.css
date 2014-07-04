@@ -965,10 +965,6 @@ body,
   position: relative;
 }
 #logo #tagline .tagline-mask ul {
-  -webkit-animation: change 7s 1s ease-in-out infinite;
-  -moz-animation: change 7s 1s ease-in-out infinite;
-  -o-animation: change 7s 1s ease-in-out infinite;
-  animation: change 7s 1s ease-in-out infinite;
   margin-left: 0;
   list-style: none;
 }
@@ -1034,5 +1030,89 @@ nav.section.navigation {
 
 .module {
   margin-top: 0;
+}
+
+#logo #tagline .tagline-mask:before,#logo #tagline .tagline-mask:after {
+  content:'';
+  display:block;
+  width:100%;
+  height:5px;
+  position:absolute;
+  left:0;
+  z-index:1;
+}
+
+#logo #tagline .tagline-mask:before {
+  -webkit-box-shadow:inset 0 2px 3px #474747;
+  -moz-box-shadow:inset 0 2px 3px #000;
+  box-shadow:inset 0 2px 3px #000;
+  top:0;
+}
+
+#logo #tagline .tagline-mask:after {
+  -webkit-box-shadow:inset 0 -2px 3px #474747;
+  -moz-box-shadow:inset 0 -2px 3px #474747;
+  box-shadow:inset 0 -2px 3px #000;
+  bottom:0;
+}
+
+#logo #tagline .tagline-mask ul {
+  -webkit-animation:change 7s 1s ease-in-out infinite;
+  -moz-animation:change 7s 1s ease-in-out infinite;
+  -o-animation:change 7s 1s ease-in-out infinite;
+  animation:change 7s 1s ease-in-out infinite;
+}
+
+#logo #tagline .tagline-mask ul li {
+  font-weight:700;
+  line-height:20px;
+}
+
+@-webkit-keyframes change
+{
+  0%      { margin-top:0; }
+  12.5%   { margin-top:-20px; }
+  25%     { margin-top:-40px; }
+  37.5%   { margin-top:-60px; }
+  50%     { margin-top:-80px; }
+  62.5%   { margin-top:-100px;}
+  75%     { margin-top:-120px;}
+  87.5%   { margin-top:0; }
+}
+
+@-moz-keyframes change
+{
+  0%      { margin-top:0; }
+  12.5%   { margin-top:-20px; }
+  25%     { margin-top:-40px; }
+  37.5%   { margin-top:-60px; }
+  50%     { margin-top:-80px; }
+  62.5%   { margin-top:-100px;}
+  75%     { margin-top:-120px;}
+  87.5%   { margin-top:0; }
+}
+
+@-o-keyframes change
+{
+  0%      { margin-top:0; }
+  12.5%   { margin-top:-20px; }
+  25%     { margin-top:-40px; }
+  37.5%   { margin-top:-60px; }
+  50%     { margin-top:-80px; }
+  62.5%   { margin-top:-100px;}
+  75%     { margin-top:-120px;}
+  87.5%   { margin-top:0; }
+}
+
+@keyframes change
+{
+  0%      { margin-top:0; }
+  12.5%   { margin-top:-20px; }
+  25%     { margin-top:-40px; }
+  37.5%   { margin-top:-60px; }
+  50%     { margin-top:-80px; }
+  62.5%   { margin-top:-100px;}
+  75%     { margin-top:-120px;}
+  87.5%   { margin-top:0; }
 }
 
