@@ -1,14 +1,36 @@
-{% ckan_extends %}
-
 {% block header_logo %}
-  <a class="logo" href="http://datos.gob.mx">{{ g.site_title }}</a>
+
+<header id="header">
+  <div id="logo">
+    <h1 id="logo-base"><a href="http://datos.gob.mx">{{ g.site_title }}</a></h1>
+    <div id="tagline">
+      <span>Abrir para</span>
+      <div class="tagline-mask">
+        <ul>
+          <li>innovar</li>
+          <li>emprender</li>
+          <li>transparentar</li>
+          <li>participar</li>
+          <li>ahorrar</li>
+          <li>evaluar</li>
+          <li>eficientar</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
   {% if g.site_description %}<h2>{{ g.site_description }}</h2>{% endif %}
 {% endblock %}
 
-{% block header_site_navigation_tabs %}
-  {{ h.build_nav_main(
-    ('search', _('Datasets')),
-    ('organizations_index', _('Organizations')),
-    ('group_index', _('Groups')),
-  ) }}
-{% endblock %}
+  {% block header_site_navigation %}
+  <nav id="nav">
+    <ul>
+      <li class="nav-datos"><a href="/"><span></span>Datos</a></li>
+      <li class="nav-historia"><a href="http://datos.ensambledev.com/new/historias"><span></span>Historias</a></li>
+      <li class="nav-avances"><a href="http://datos.ensambledev.com/new/avances"><span></span>Avances</a></li>
+    </ul>
+  </nav>
+  {% endblock %}
+
+</header>
+
