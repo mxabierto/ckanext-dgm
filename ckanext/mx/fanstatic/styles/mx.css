@@ -382,9 +382,6 @@ body {
 .toolbar .breadcrumb a.active {
   font-weight: 300;
 }
-.toolbar .breadcrumb li.home {
-  display: none;
-}
 .wrapper {
   background-image: none;
   background-color: #FFF;
