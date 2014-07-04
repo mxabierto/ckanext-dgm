@@ -278,7 +278,7 @@ input[type="color"]:focus,
    ====================================================== */
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: regular;
 }
 .account-masthead {
   background-color: #000000;
@@ -906,3 +906,133 @@ body,
     margin-left: 70px;
   }
 }
+
+
+
+/* BETA */
+
+
+
+/* Parent site navigation */
+
+#header {
+  background-color: #000;
+}
+#header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#logo {
+  float: left;
+  display: inline;
+}
+#logo-base {
+  display: block;
+  width: 250px;
+  height: 110px;
+  margin: 0;
+}
+#logo-base a {
+  display: block;
+  width: 250px;
+  height: 110px;
+  background: url(http://datos.ensambledev.com/new/wp-content/themes/datos/assets/frontend/img/logo.png) no-repeat center center;
+  text-indent: -9999em;
+}
+#logo #tagline {
+  position: absolute;
+  left: 70px;
+  top: 58px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+#logo #tagline>span {
+  display: inline;
+  float: left;
+  line-height: 20px;
+  height: 20px;
+  overflow: hidden;
+  margin-right: 5px;
+}
+#logo #tagline .tagline-mask {
+  display: inline;
+  float: left;
+  line-height: 20px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+}
+#logo #tagline .tagline-mask ul {
+  -webkit-animation: change 7s 1s ease-in-out infinite;
+  -moz-animation: change 7s 1s ease-in-out infinite;
+  -o-animation: change 7s 1s ease-in-out infinite;
+  animation: change 7s 1s ease-in-out infinite;
+  margin-left: 0;
+  list-style: none;
+}
+#logo #tagline .tagline-mask ul li {
+  font-weight: bold;
+  line-height: 20px;
+}
+
+#header #nav {
+  display: inline;
+  float: right;
+  position: static;
+}
+
+#nav ul {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+}
+#nav ul li {
+  display: inline;
+  float: left;
+}
+#nav ul li a {
+  color: #ebebeb;
+  display: block;
+  font-size: 14px;
+  line-height: 1;
+  padding: 1rem 1.5rem;
+  -webkit-box-shadow: inset 0 5px 0 #333;
+  -moz-box-shadow: inset 0 5px 0 #333;
+  box-shadow: inset 0 5px 0 #333;
+}
+#nav ul li a>span {
+  background: url(http://datos.ensambledev.com/new/wp-content/themes/datos/assets/frontend/img/icons-nav.png) no-repeat;
+  width: 42px;
+  height: 53px;
+  margin: 0 auto;
+  margin-bottom: 11px;
+  display: block;
+  text-indent: -9999em;
+}
+#nav ul li a:hover {
+  text-decoration: none;
+  color: #20cac8;
+}
+#nav ul li.nav-datos a>span { background-position: 0 0; }
+#nav ul li.nav-historia a>span { background-position: 0 -53px; }
+#nav ul li.nav-avances a>span { background-position: 0 -106px; }
+
+.masthead {
+  background-image: none;
+}
+.account-masthead {
+  display: none;
+}
+
+nav.section.navigation {
+  position: absolute;
+  top: -44px;
+  right: 0;
+}
+
+.module {
+  margin-top: 0;
+}
+
