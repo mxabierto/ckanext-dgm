@@ -8,6 +8,8 @@
     {% snippet "spatial/snippets/dataset_map_sidebar.html", extent=dataset_extent %}
   {% endif %}
 
-  {% snippet "snippets/licencia.html"%}
+  {% if not c.pkg_dict.license_id or c.pkg_dict.license_id == "notspecified"  %}
+    {% snippet "snippets/licencia.html" %}
+  {% endif %}
 
 {% endblock %}
