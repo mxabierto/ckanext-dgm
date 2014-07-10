@@ -39,3 +39,6 @@ msgid ""
 "       %(reset_link)s\n"
 "    "
 msgstr "Ha solicitado que se le resetee la clave en %(site_title)s.\n\nPor favor pulsa el siguiente enlace para confirmar la solicitud:\n\n   %(reset_link)s\n    "
+
+msgid "Clear"
+msgstr "Limpiar"
