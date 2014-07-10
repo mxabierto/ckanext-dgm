@@ -1120,3 +1120,7 @@ nav.section.navigation {
   87.5%   { margin-top:0; }
 }
 
+.secondary .license {
+  display: none;
+}
+
