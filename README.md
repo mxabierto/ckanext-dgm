@@ -1,7 +1,9 @@
 ckanext-mx
 ==========
 
-Theme for datos.gob.mx
+CKAN custom theme for datos.gob.mx
+
+![screenshot](https://raw.githubusercontent.com/mxabierto/ckanext-dgm/master/screenshot.png)
 
 Updating locales
 ----------------
