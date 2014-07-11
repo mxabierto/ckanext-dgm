@@ -474,6 +474,9 @@ body {
 .secondary .module .module-heading i {
   display: none;
 }
+.secondary section.groups, .secondary section.license_id {
+  display: none;
+}
 .nav-simple > li,
 .nav-aside > li {
   border-bottom: 1px solid #a3abb6;
