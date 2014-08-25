@@ -281,7 +281,7 @@ body {
   font-weight: regular;
 }
 .account-masthead {
-  background-color: #000000;
+  background-color: #B1B1B1;
   background-image: none;
 }
 .account-masthead .account ul li {
@@ -289,10 +289,10 @@ body {
 }
 .account-masthead .account ul li a,
 .account-masthead .account ul li a:hover {
-  color: #e6e6e6;
-  background-color: #303030;
-  font-size: 12px;
-  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #B1B1B1;
+  font-size: 14px;
+  font-weight: bold;
   padding: 0 20px;
 }
 .account-masthead .account .notifications a span {
@@ -373,6 +373,10 @@ body {
 .main {
   background-color: #f0f0f0;
   background-image: none;
+  padding-top: 20px;
+}
+.toolbar {
+  padding: 25px 0;
 }
 .toolbar .breadcrumb {
   font-style: italic;
@@ -1062,16 +1066,15 @@ body,
 .masthead {
   background-image: none;
 }
-.account-masthead {
+.masthead {
   display: none;
 }
 
 nav.section.navigation {
   position: absolute;
-  top: -44px;
+  top: -64px;
   right: 0;
 }
-
 .module {
   margin-top: 0;
 }
