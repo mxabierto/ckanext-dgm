@@ -42,3 +42,221 @@ msgstr "Ha solicitado que se le resetee la clave en %(site_title)s.\n\nPor favor
 
 msgid "Clear"
 msgstr "Borrar"
+
+#: ckan/controllers/group.py:597
+msgid "Organization has been deleted."
+msgstr "La Institución ha sido borrada."
+
+#: ckan/logic/validators.py:43
+msgid "Organization does not exist"
+msgstr "Institución no existe"
+
+#: ckan/logic/validators.py:48
+msgid "You cannot add a dataset to this organization"
+msgstr "No es posible agregar un conjunto de datos a esta institución"
+
+#: ckan/logic/validators.py:695
+msgid "Datasets with no organization can't be private."
+msgstr "Los conjuntos de datos sin institución no pueden ser privados."
+
+#: ckan/logic/action/create.py:667
+msgid "Trying to create an organization as a group"
+msgstr "Intentando crear una institución como un grupo"
+
+#: ckan/logic/action/update.py:1093
+msgid "Organization was not found."
+msgstr "Institución no encontrada."
+
+#: ckan/logic/auth/create.py:30
+#, python-format
+msgid "User %s not authorized to add dataset to this organization"
+msgstr "El usuario %s no está autorizado para crear conjuntos de datos en esta institución"
+
+#: ckan/logic/auth/create.py:101
+#, python-format
+msgid "User %s not authorized to create organizations"
+msgstr "El usuario %s no está autorizado para crear instituciones"
+
+#: ckan/logic/auth/delete.py:106
+#, python-format
+msgid "User %s not authorized to delete organizations"
+msgstr "El usuario %s no está autorizado para eliminar instituciones"
+
+#: ckan/logic/auth/delete.py:110
+#, python-format
+msgid "User %s not authorized to delete organization %s"
+msgstr "El usuario %s no está autorizado para eliminar la institución %s"
+
+#: ckan/logic/auth/delete.py:139
+#, python-format
+msgid "User %s not authorized to delete organization %s members"
+msgstr "El usuario %s no está autorizado para eliminar los miembros de la institución %s"
+
+#: ckan/logic/auth/update.py:120
+#, python-format
+msgid "User %s not authorized to edit organization %s"
+msgstr "El usuario %s no está autorizado para editar la institución %s"
+
+
+#: ckan/templates/group/member_new.html:87
+msgid ""
+" <p><strong>Admin:</strong> Can edit group information, as well as manage "
+"organization members.</p> <p><strong>Member:</strong> Can add/remove "
+"datasets from groups</p> "
+msgstr "<p><strong>Administrador:</strong>Puede editar información del grupo, así como también administrar miembros de la institución.</p><p><strong>Miembro:</strong> Puede agregar/eliminar conjuntos de datos de grupos.</p>"
+
+#: ckan/templates/home/snippets/stats.html:16
+msgid "organization"
+msgstr "institución"
+
+#: ckan/templates/home/snippets/stats.html:16
+msgid "organizations"
+msgstr "instituciones"
+
+#: ckan/templates/organization/about.html:11
+#: ckan/templates/snippets/organization.html:37
+#: ckan/templates/snippets/organization_item.html:16
+msgid "There is no description for this organization"
+msgstr "No existe una descripción para esta institución"
+
+#: ckan/templates/organization/base_form_page.html:5
+msgid "Organization Form"
+msgstr "Formulario de la Institución"
+
+#: ckan/templates/organization/bulk_process.html:90
+msgid "This organization has no datasets associated to it"
+msgstr "Esta institución no tiene conjuntos de datos asociados a ella"
+
+#: ckan/templates/organization/confirm_delete.html:11
+msgid "Are you sure you want to delete organization - {name}?"
+msgstr "¿Está seguro de que desea eliminar la institución - {name}?"
+
+#: ckan/templates/organization/edit.html:6
+#: ckan/templates/organization/snippets/info.html:13
+#: ckan/templates/organization/snippets/info.html:16
+msgid "Edit Organization"
+msgstr "Editar Institución"
+
+#: ckan/templates/organization/index.html:13
+#: ckan/templates/user/dashboard_organizations.html:7
+msgid "Add Organization"
+msgstr "Agregar Institución"
+
+#: ckan/templates/organization/index.html:20
+msgid "Search organizations..."
+msgstr "Buscar instituciones"
+
+#: ckan/templates/organization/index.html:29
+msgid "There are currently no organizations for this site"
+msgstr "Actualmente no existen instituciones para este sitio"
+
+#: ckan/templates/organization/member_new.html:78
+msgid ""
+" <p><strong>Admin:</strong> Can add/edit and delete datasets, as well as "
+"manage organization members.</p> <p><strong>Editor:</strong> Can add and "
+"edit datasets, but not manage organization members.</p> "
+"<p><strong>Member:</strong> Can view the organization's private datasets, "
+"but not add new datasets.</p> "
+msgstr "<p><strong>Administrador:</strong> Puede agregar/editar y eliminar conjuntos de datos, así como también administrar a los miembros de una institución.</p> <p><strong>Editor:</strong> Puede agregar y editar conjuntos de datos, pero no administrar a los miembros de una institución.</p> <p><strong>Miembro:</strong> Puede ver los conjuntos de datos privados de una institución, pero no agregar nuevos conjuntos de datos.</p>"
+
+#: ckan/templates/organization/new.html:3
+#: ckan/templates/organization/new.html:5
+#: ckan/templates/organization/new.html:7
+#: ckan/templates/organization/new.html:12
+msgid "Create an Organization"
+msgstr "Crear una Institución"
+
+#: ckan/templates/organization/new_organization_form.html:17
+msgid "Update Organization"
+msgstr "Actualizar Institución"
+
+#: ckan/templates/organization/new_organization_form.html:19
+msgid "Create Organization"
+msgstr "Crear Institución"
+
+#: ckan/templates/organization/snippets/help.html:4
+#: ckan/templates/organization/snippets/helper.html:4
+msgid "What are Organizations?"
+msgstr "¿Qué son las Instituciones?"
+
+#: ckan/templates/organization/snippets/help.html:7
+msgid ""
+" <p>Organizations act like publishing departments for datasets (for example,"
+" the Department of Health). This means that datasets can be published by and"
+" belong to a department instead of an individual user.</p> <p>Within "
+"organizations, admins can assign roles and authorisation its members, giving"
+" individual users the right to publish datasets from that particular "
+"organisation (e.g. Office of National Statistics).</p> "
+msgstr "<p>Las instituciones actúan como departamentos de publicación para los conjuntos de datos (por ejemplo, el Departamento de Salud). Esto significa que los conjuntos de datos pueden ser publicados por y pertenecer a un departamento en vez de a un usuario individual.</p> <p>Dentro de las instituciones, los administradores asignan roles y autorizaciones para sus miembros, dándoles a los usuarios individuales el derecho a publicar conjuntos de datos de esa institución en particular (ej.: Oficina Nacional de Estadísticas).</p>"
+
+#: ckan/templates/organization/snippets/helper.html:8
+msgid ""
+" CKAN Organizations are used to create, manage and publish collections of "
+"datasets. Users can have different roles within an Organization, depending "
+"on their level of authorisation to create, edit and publish. "
+msgstr "Las instituciones en CKAN son usadas para crear, gestionar y publicar colecciones de conjuntos de datos. Los usuarios pueden tener diferentes perfiles en una institución, dependiente de su nivel de autorización para crear, editar y publicar"
+
+#: ckan/templates/organization/snippets/organization_form.html:10
+msgid "My Organization"
+msgstr "Mi Institución"
+
+#: ckan/templates/organization/snippets/organization_form.html:18
+msgid "my-organization"
+msgstr "mi-institucion"
+
+#: ckan/templates/organization/snippets/organization_form.html:20
+msgid "A little information about my organization..."
+msgstr "Un poco de información acerca de mi institución..."
+
+#: ckan/templates/organization/snippets/organization_form.html:81
+msgid ""
+"Are you sure you want to delete this Organization? This will delete all the "
+"public and private datasets belonging to this organization."
+msgstr "¿Estás seguro de que quieres borrar esta Institución? Esto borrará los conjuntos de datos privados y públicos que pertenecen a esta institución."
+
+#: ckan/templates/organization/snippets/organization_form.html:85
+msgid "Save Organization"
+msgstr "Guardar Institución"
+
+#: ckan/templates/organization/snippets/organization_item.html:26
+msgid "This organization has no description"
+msgstr "Esta institución no tiene una descripción"
+
+msgid "Organization"
+msgstr "Institución"
+
+msgid "Organizations"
+msgstr "Instituciones"
+
+#: ckan/templates/package/snippets/package_basic_fields.html:72
+msgid "No organization"
+msgstr "Sin institución"
+
+#: ckan/templates/snippets/search_result_text.html:27
+msgid "{number} organization found for \"{query}\""
+msgid_plural "{number} organizations found for \"{query}\""
+msgstr[0] "{number} institución encontrada para \"{query}\""
+msgstr[1] "{number} instituciones encontradas para \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html:28
+msgid "No organizations found for \"{query}\""
+msgstr "Lo sentimos, no se encontraron instituciones para \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html:29
+msgid "{number} organization found"
+msgid_plural "{number} organizations found"
+msgstr[0] "{number} institución encontrada"
+msgstr[1] "{number} instituciones encontradas"
+
+#: ckan/templates/snippets/search_result_text.html:30
+msgid "No organizations found"
+msgstr "Lo sentimos, no se encontraron instituciones"
+
+#: ckan/templates/user/dashboard.html:21
+#: ckan/templates/user/dashboard_organizations.html:12
+msgid "My Organizations"
+msgstr "Mis Instituciones"
+
+#: ckan/templates/user/dashboard_organizations.html:20
+msgid "You are not a member of any organizations."
+msgstr "No eres miembro de ninguna de las instituciones."
