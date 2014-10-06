@@ -1,36 +1,84 @@
 {% block header_logo %}
 
-<header id="header">
-  <div id="logo">
-    <h1 id="logo-base"><a href="http://datos.gob.mx">{{ g.site_title }}</a></h1>
-    <div id="tagline">
-      <span>Abrir para</span>
-      <div class="tagline-mask">
-        <ul>
-          <li>innovar</li>
-          <li>emprender</li>
-          <li>transparentar</li>
-          <li>participar</li>
-          <li>ahorrar</li>
-          <li>evaluar</li>
-          <li>eficientar</li>
-        </ul>
+<header id="header" class="site-header">
+
+  <div class="site-header-top">
+    <div class="wrapper">
+      <div class="cols-12">
+        <div class="col col-12">
+          <div class="col-inner">
+            <div class="presidencia-brand">
+              <a href="http://presidencia.gob.mx/" title="Presidencia de la República" target="_blank">
+                <i class="i presidencia"></i>
+              </a>
+            </div>
+            <div class="social-links">
+              <ul>
+                <li>
+                  <a href="https://twitter.com/DatosGobMx" title="Twitter" target="_blank">
+                    <i class="i twitter-gray"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="" title="Facebook">
+                    <i class="i fb-gray"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/mxabierto/dgm" title="Repositorio GitHub" target="_blank">
+                    <i class="i octocat-gray"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  {% if g.site_description %}<h2>{{ g.site_description }}</h2>{% endif %}
-{% endblock %}
+  <div class="site-header-bottom">
+    <div class="wrapper">
+      <div class="cols-12">
+        <div class="col col-12">
+          <div class="col-inner">
+            <a class="site-brand" href="/">
+              <i class="i dgm-logo"></i>
+            </a>
+            <div class="open-data-header-poster">
+              <div class="poster-part-1">
+                Abrir para
+              </div>
+              <div class="poster-part-2">
+                <ul>
+                  <li>innovar</li>
+                  <li>emprender</li>
+                  <li>transparentar</li>
+                  <li>participar</li>
+                  <li>ahorrar</li>
+                  <li>evaluar</li>
+                  <li>eficientar</li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav-burguer"><span></span></div>
 
-  {% block header_site_navigation %}
-  <nav id="nav">
-    <ul>
-      <li class="nav-datos"><a href="/" class="current"><span></span>Datos</a></li>
-      <li class="nav-historia"><a href="http://datos.gob.mx/historias"><span></span>Historias</a></li>
-      <li class="nav-avances"><a href="http://datos.gob.mx/avances"><span></span>Avances</a></li>
-    </ul>
-  </nav>
-  {% endblock %}
+            <nav class="site-navigation">
+              <ul>
+                <li><a class="page-link active" href="/">Datos</a></li>
+	        <li><a class="page-link" href="http://datos.gob.mx/historias/">Historias</a></li>
+	        <li><a class="page-link" href="http://datos.gob.mx/herramientas/">Herramientas</a></li>
+	        <li><a class="page-link" href="http://datos.gob.mx/acerca/">Acerca</a></li>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
 
 </header>
 
