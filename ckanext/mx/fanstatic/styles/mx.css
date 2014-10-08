@@ -834,7 +834,7 @@ body,
   margin: 0 2rem;
 }
 .sprite-sprite, .sprite-logo-mexico-abierto, .sprite-logo-presidencia {
-  background: url('http://datos.gob.mx/wp-content/themes/datos/assets/frontend/img/sprite-s6052db57c0.png') no-repeat;
+  background: url('../../../../images/sprite-s6052db57c0.png') no-repeat;
   display: block;
   text-align: left;
   text-indent: -9999em;
@@ -1164,5 +1164,13 @@ nav.section.navigation {
 
 .secondary .license {
   display: none;
+}
+
+.footer-terms a.logo-libreusomx {
+  background: url(../../../../images/libreuso_logoMX-w.png) no-repeat;
+  text-indent: -9999px;
+  height: 26px;
+  width: 144px;
+  margin-bottom: 2rem;
 }
 
