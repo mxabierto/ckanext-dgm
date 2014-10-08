@@ -1166,3 +1166,11 @@ nav.section.navigation {
   display: none;
 }
 
+.footer-terms a.logo-libreusomx {
+  background: url(../../../../images/libreuso_logoMX.png) no-repeat;
+  text-indent: -9999px;
+  height: 26px;
+  width: 144px;
+  margin-bottom: 2rem;
+}
+
