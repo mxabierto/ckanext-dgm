@@ -978,7 +978,7 @@ body,
   display: block;
   width: 250px;
   height: 110px;
-  background: url(../../images/datos.gob.mx_logo.png) no-repeat center center;
+  background: url(../../../../images/datos.gob.mx_logo.png) no-repeat center center;
   text-indent: -9999em;
 }
 #logo #tagline {
@@ -1058,9 +1058,9 @@ body,
   text-decoration: none;
   color: #20cac8;
 }
-#nav ul li.nav-datos a>span { background: url(../../images/datos.gob.mx_logo_datos.png) no-repeat center center; }
-#nav ul li.nav-historia a>span { background: url(../../images/datos.gob.mx_logo_historias.png) no-repeat center center; }
-#nav ul li.nav-avances a>span { background: url(../../images/datos.gob.mx_logo_avances.png) no-repeat center center; }
+#nav ul li.nav-datos a>span { background: url(../../../../images/datos.gob.mx_logo_datos.png) no-repeat center center; }
+#nav ul li.nav-historia a>span { background: url(../../../../images/datos.gob.mx_logo_historias.png) no-repeat center center; }
+#nav ul li.nav-avances a>span { background: url(../../../../images/datos.gob.mx_logo_avances.png) no-repeat center center; }
 
 .masthead {
   background-image: none;
