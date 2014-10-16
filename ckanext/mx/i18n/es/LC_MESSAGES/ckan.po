@@ -269,3 +269,7 @@ msgstr "No está disponible la vista preliminar, pero aún puedes descargar el r
 #: ckan/templates/package/snippets/resource_item.html:47
 msgid "Go to resource"
 msgstr "Descargar"
+
+#: ckan/templates/dataviewer/snippets/data_preview.html:9
+msgid "This resource can not be previewed at the moment."
+msgstr "Este recurso no puede ser previsualizado en este momento, pero puedes descargarlo."
