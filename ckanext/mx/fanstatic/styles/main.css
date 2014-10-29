@@ -109,6 +109,7 @@ p + p, .styled + p, .post-content ul + p, p + .styled, .styled + .styled, .post-
 .site-header .open-data-header-poster { margin-left: 15px; float: left; overflow: hidden; }
 .site-header .open-data-header-poster .poster-part-1, .site-header .open-data-header-poster .poster-part-2 { float: left; height: 50px; }
 .site-header .open-data-header-poster .poster-part-2 { margin-left: 7px; overflow: hidden; }
+.site-header .open-data-header-poster .poster-part-2 ul li { line-height: 50px;}
 .site-header .nav-burguer { width: 20px; height: 20px; margin: 8px 1px 0 0; float: right; padding: 5px; display: none; }
 .site-header .nav-burguer span { position: relative; display: block; margin-top: 9px; }
 .site-header .nav-burguer span:after, .site-header .nav-burguer span:before { content: ""; position: absolute; left: 0; top: -7px; }
