@@ -260,3 +260,16 @@ msgstr "Mis Instituciones"
 #: ckan/templates/user/dashboard_organizations.html:20
 msgid "You are not a member of any organizations."
 msgstr "No eres miembro de ninguna de las instituciones."
+
+#: ckan/templates/dataviewer/snippets/no_preview.html:3
+msgid "No preview available."
+msgstr "No está disponible la vista preliminar, pero aún puedes descargar el recurso."
+
+#: ckan/templates/package/resource_read.html:40
+#: ckan/templates/package/snippets/resource_item.html:47
+msgid "Go to resource"
+msgstr "Descargar"
+
+#: ckan/templates/dataviewer/snippets/data_preview.html:9
+msgid "This resource can not be previewed at the moment."
+msgstr "Este recurso no puede ser previsualizado en este momento, pero puedes descargarlo."
