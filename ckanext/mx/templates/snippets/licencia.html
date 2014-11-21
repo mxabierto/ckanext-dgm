@@ -1,7 +1,16 @@
 {% set current_url = h.full_current_url() %}
+
+{% if text_only %}
+
+<a href="http://datos.gob.mx/libreusomx/">LIBRE USO MX</a>
+
+{% else %}
+
 <section class="module module-narrow licencia">
 <h2 class="module-heading">{{ _('Licencia') }}</h2>
   <ul class="nav nav-simple">
     <li class="nav-item"><a href="http://datos.gob.mx/libreusomx/"><img alt="libre uso" src="/images/libreuso_logoMX.png" width="200" height="50"></a></li>
   </ul>
 </section>
+
+{% endif %}
