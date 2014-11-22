@@ -273,3 +273,22 @@ msgstr "Descargar"
 #: ckan/templates/dataviewer/snippets/data_preview.html:9
 msgid "This resource can not be previewed at the moment."
 msgstr "Este recurso no puede ser previsualizado en este momento, pero puedes descargarlo."
+
+msgid "Created"
+msgstr "Registro en el sitio"
+
+msgid "Last Updated"
+msgstr "Última actualización en el sitio"
+
+msgid "dcat_publisher_name"
+msgstr "Publicador"
+
+msgid "dcat_publisher_email"
+msgstr "Correo de contacto"
+
+msgid "dcat_modified"
+msgstr "Fecha de última modificación de los datos"
+
+msgid "spatial"
+msgstr "Cobertura geoespacial"
+
