@@ -32,7 +32,9 @@
         <td>{% snippet "snippets/licencia.html", text_only=True %}</td>
       </tr>
       {% for key, value in h.format_resource_items(res.items()) %}
-      <tr class="toggle-more"><th scope="row">{{ key }}</th><td>{{ value }}</td></tr>
+        {% if key == "id" %}
+          <tr><th scope="row">{{ key }}</th><td>{{ value }}</td></tr>
+        {% endif %}
       {% endfor %}
     </tbody>
     </table>
