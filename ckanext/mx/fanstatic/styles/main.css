@@ -87,7 +87,7 @@ p + p, .styled + p, .post-content ul + p, p + .styled, .styled + .styled, .post-
   .site-header .site-navigation ul li { float: none; }
   .site-header .site-navigation ul li a { padding: 10px; } }
 
-.site-header .site-header-top { background: #eeeeee; }
+.site-header .site-header-top { background: #eeeeee; display: none; }
 .site-header .social-links ul { list-style: none; }
 .site-header .social-links ul li { float: left; }
 .site-header .site-header-bottom { background: #474747; }
