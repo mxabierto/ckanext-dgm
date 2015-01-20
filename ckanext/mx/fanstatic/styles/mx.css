@@ -1076,6 +1076,14 @@ nav.section.navigation {
   margin-top: 0;
 }
 
+.site-brand {
+  line-height: 23px;
+}
+
+.site-header .site-navigation ul li a {
+  line-height: 17px;
+}
+
 #logo #tagline .tagline-mask:before,#logo #tagline .tagline-mask:after {
   content:'';
   display:block;
